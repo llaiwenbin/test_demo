@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`快照 renders correctly 1`] = `
+"async (time, fn) => {
+  /* istanbul ignore next */
+  cov_1tbr90e05i().f[3]++;
+  cov_1tbr90e05i().s[5]++;
+  setTimeout(() => {
+    /* istanbul ignore next */
+    cov_1tbr90e05i().f[4]++;
+    cov_1tbr90e05i().s[6]++;
+    Promise.resolve().then(() => {
+      /* istanbul ignore next */
+      cov_1tbr90e05i().f[5]++;
+      cov_1tbr90e05i().s[7]++;
+      fn();
+    });
+  }, time);
+}"
+`;
+
+exports[`快照 will check the matchers and pass 1`] = `
+{
+  "createdAt": Any<Date>,
+  "id": Any<Number>,
+  "name": "LeBron James",
+}
+`;
+
+exports[`快照 对变量对象进行快照 1`] = `
+{
+  "createdAt": Any<Date>,
+  "id": Any<Number>,
+  "name": "LeBron James",
+}
+`;
+
+exports[`快照 对组件进行快照 1`] = `
+<a
+  className="normal"
+  href="http://www.facebook.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  Facebook
+</a>
+`;
